@@ -1,0 +1,62 @@
+.headerContainer{
+padding:20px 0px;
+display: flex;
+}
+.navigation{
+   padding:20px 0px;
+   flex:1;
+}
+.navigation span{
+   text-transform: capitalize;
+   font-family: 'Advent Pro';
+   letter-spacing: 2px;
+   padding:0px 5px;
+   font-weight:600;
+   color:darkgray;
+}
+.searchContainer{
+   display: flex;
+   align-items: center;
+   border-bottom: 2px solid rgba(169, 169, 169, 0.096);
+}
+.inp{
+   outline:none;
+   border:none;
+   background-color: transparent;
+   height: 40px;
+   width: 250px;
+   font-size:20px;
+   padding:0px 10px;
+   color:darkgray;
+   font-family: 'archivo';
+   letter-spacing:1px;
+   
+}
+.actions{
+   background-color: white;
+   border-radius: 50px;
+   width:250px;
+   display: flex;
+   align-items: center;
+   margin-left: 70px;
+   justify-content:space-between;
+   padding:0px 15px;
+}
+.btn{
+   background-color:rgba(17, 17, 236, 0.521);
+   outline:none;
+   border:none;
+   color:white;
+   padding:4px 4px;
+   height:40px;
+   width:100px;
+   border-radius: 18px;
+   letter-spacing:0.5px;
+   cursor: pointer;
+
+
+}
+span a{
+   text-decoration:none;
+   color:inherit;
+}

@@ -1,0 +1,27 @@
+.mainContainer{
+   position:fixed;
+   width:70%;
+   height:100%;
+   left:25%;   
+   padding:0px 50px;
+}
+.products{
+   padding:20px 0px 0px 20px;
+   display:grid;
+   grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    overflow-y: scroll;
+   height:80%;
+
+}
+.footerLinks{
+   padding:5px 0px;
+   text-decoration: none;
+   color:rgba(17, 17, 236, 0.521);
+   margin-left:20px;
+   float: right;
+}
+.footerLinks:hover{
+   color:rgba(17, 17, 236, 0.726);
+   font-weight: 400  ;
+}
